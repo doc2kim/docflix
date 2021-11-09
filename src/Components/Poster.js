@@ -10,8 +10,8 @@ const Container = styled.div`
 
 const Image = styled.div`
     background-image: url(${function (props) { return props.bgUrl }});
-    width: 150px;
-    height:250px;
+    width: 170px;
+    height:270px;
     background-size: cover;
     border-radius: 4px;
     background-position: center center;

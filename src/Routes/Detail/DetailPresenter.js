@@ -56,9 +56,6 @@ const ItemContainer = styled.div`
 line-height:1.7;
 margin:20px 0;
 height: 27%;
-overflow: auto;
-text-overflow: ellipsis;
-
 `;
 
 const Item = styled.span`
@@ -69,11 +66,15 @@ margin: 0 10px;
 `;
 
 const Overview = styled.p`
+height: 65%;
 font-size:12px;
 opacity: 0.7;
 line-height: 1.5;
 margin-top: 10px;
+overflow: auto;
 `;
+
+
 
 const Imdb = styled.a`
 background-color:rgb(245, 197, 25);
@@ -103,6 +104,7 @@ const Block = styled.div`
 display: flex;
 width: 100%;
 height: 26%;
+overflow: auto;
 `;
 
 const List = styled.li`
