@@ -10,7 +10,12 @@ const Container = styled.div`
     margin-top:300px;
 `;
 
-export default function () {
-    return <Container><span role="img" aria-label="Loading" ></span>Loading...</Container>
-}
+// eslint-disable-next-line import/no-anonymous-default-export
+export default () => (
+    <Container>
+        <span role="img" aria-label="Loading" ></span>
+        Loading...
+    </Container>
+);
+
 
