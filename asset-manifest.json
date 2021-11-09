@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/docflix/static/js/main.c5d3afe7.chunk.js",
+    "main.js.map": "/docflix/static/js/main.c5d3afe7.chunk.js.map",
+    "runtime-main.js": "/docflix/static/js/runtime-main.05e326a0.js",
+    "runtime-main.js.map": "/docflix/static/js/runtime-main.05e326a0.js.map",
+    "static/js/2.f102bc38.chunk.js": "/docflix/static/js/2.f102bc38.chunk.js",
+    "static/js/2.f102bc38.chunk.js.map": "/docflix/static/js/2.f102bc38.chunk.js.map",
+    "index.html": "/docflix/index.html",
+    "static/js/2.f102bc38.chunk.js.LICENSE.txt": "/docflix/static/js/2.f102bc38.chunk.js.LICENSE.txt",
+    "static/media/noPosterSmall.png": "/docflix/static/media/noPosterSmall.ea2ad102.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05e326a0.js",
+    "static/js/2.f102bc38.chunk.js",
+    "static/js/main.c5d3afe7.chunk.js"
+  ]
+}
