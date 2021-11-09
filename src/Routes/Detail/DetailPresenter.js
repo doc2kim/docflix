@@ -120,6 +120,9 @@ const Country = styled.div`
 width: 50%;
 `;
 
+const Genre = styled.span`
+`;
+
 
 const DetailPresenter = function ({ result, error, loading, ytVideos, countrys, companys }) {
     return loading ? (
@@ -159,7 +162,7 @@ const DetailPresenter = function ({ result, error, loading, ytVideos, countrys, 
                     <Divider>•</Divider>
                     <Item>
                         {result.genres && result.genres.map(function (genre, index) {
-                            return index === result.genres.length - 1 ? genre.name : <span key={genre.id} >{`${genre.name} / `}</span>;
+                            return index === result.genres.length - 1 ? genre.name : <Genre key={genre.id} >{`${genre.name} / `}</Genre>;
                         })}
                     </Item>
                     <Item>
@@ -185,9 +188,9 @@ const DetailPresenter = function ({ result, error, loading, ytVideos, countrys, 
                     </Producer>
                     <Country>
                         <TitleText>제작국</TitleText>
-                        {countrys && countrys.map(function (contry) {
+                        {countrys && countrys.map(function (country) {
                             return (
-                                <List key={contry.id}>{contry.name}</List>
+                                <List key={country.id}>{country.name}</List>
                             );
                         })}
                     </Country>
