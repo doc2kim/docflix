@@ -25,7 +25,6 @@ class DetailContainer extends React.Component {
                 params: { id }
             },
             history: { push },
-            location: { pathname }
         } = this.props;
         const { isMovie } = this.state;
         //parseInt()는 string을 int로 변환한다. 
