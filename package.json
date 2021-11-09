@@ -33,7 +33,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://doc2kim.github.io/docflix",
+  "homepage": "https://sharp-mayer-7f879f.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
